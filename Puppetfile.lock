@@ -1,4 +1,14 @@
 GITHUBTARBALL
+  remote: boxen/puppet-adium
+  specs:
+    adium (1.2.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-alfred
+  specs:
+    alfred (1.1.5)
+
+GITHUBTARBALL
   remote: boxen/puppet-autoconf
   specs:
     autoconf (1.0.0)
@@ -9,9 +19,24 @@ GITHUBTARBALL
     boxen (3.0.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-clipmenu
+  specs:
+    clipmenu (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-crashplan
+  specs:
+    crashplan (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-dropbox
+  specs:
+    dropbox (1.1.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -49,6 +74,11 @@ GITHUBTARBALL
     nodejs (3.2.9)
 
 GITHUBTARBALL
+  remote: boxen/puppet-notational_velocity
+  specs:
+    notational_velocity (1.1.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
@@ -57,6 +87,11 @@ GITHUBTARBALL
   remote: boxen/puppet-osx
   specs:
     osx (1.6.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-rdio
+  specs:
+    rdio (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-repository
@@ -69,9 +104,19 @@ GITHUBTARBALL
     ruby (6.3.4)
 
 GITHUBTARBALL
+  remote: boxen/puppet-sourcetree
+  specs:
+    sourcetree (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-textexpander
+  specs:
+    textexpander (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
@@ -104,9 +149,14 @@ GITHUBTARBALL
     stdlib (4.1.0)
 
 DEPENDENCIES
+  adium (= 1.2.0)
+  alfred (= 1.1.5)
   autoconf (= 1.0.0)
   boxen (= 3.0.2)
+  clipmenu (= 1.0.0)
+  crashplan (= 1.0.1)
   dnsmasq (= 1.0.0)
+  dropbox (= 1.1.1)
   gcc (= 2.0.1)
   git (= 1.2.5)
   homebrew (= 1.4.1)
@@ -115,12 +165,16 @@ DEPENDENCIES
   iterm2 (= 1.0.3)
   nginx (= 1.4.2)
   nodejs (= 3.2.9)
+  notational_velocity (= 1.1.1)
   openssl (= 1.0.0)
   osx (= 1.6.0)
+  rdio (= 1.0.0)
   repository (= 2.2.0)
   ruby (= 6.3.4)
+  sourcetree (= 1.0.0)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
+  textexpander (= 1.0.1)
   vagrant (= 2.0.14)
   virtualbox (= 1.0.7)
   xquartz (= 1.1.0)

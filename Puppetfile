@@ -39,6 +39,17 @@ github "xquartz",    "1.1.0"
 
 github "vagrant",    "2.0.14"
 github "virtualbox", "1.0.7"
+
+# Modules for individual people
+github "adium",      "1.2.0"
+github "alfred",     "1.1.5"
+github "clipmenu",   "1.0.0"
+github "crashplan",  "1.0.1"
+github "dropbox",    "1.1.1"
 github "iterm2",     "1.0.3"
+github "notational_velocity",	"1.1.1"
 github "osx",        "1.6.0"
+github "rdio",       "1.0.0"
+github "sourcetree", "1.0.0"
+github "textexpander",	"1.0.1"
 github "zsh",        "1.0.0"
