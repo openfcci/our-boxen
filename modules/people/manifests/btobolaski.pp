@@ -11,4 +11,11 @@ class people::btobolaski {
 	include zsh
 
 	include projects::drupal
+
+	$dotfiles = "/Users/${::boxen_user}/.dotfiles"
+
+	repository { $dotfiles:
+	  source => 'git@code.tobolaski.com:btobolaski/dotfiles.git'
+	}
+
 }
