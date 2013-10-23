@@ -5,6 +5,9 @@ class projects::drupal {
     include virtualbox
     include vagrant
 
+    vagrant::plugin { 'vagrant-mountcommand':
+    }
+
     boxen::project { 'fcc-drupal-cms':
         source  => 'git@git.fccinteractive.com:fcc-drupal-cms'
     }
