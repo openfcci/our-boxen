@@ -1,4 +1,7 @@
 class projects::drupal {
+    include chrome
+    include firefox
+    include sequel_pro
     include virtualbox
     include vagrant
 

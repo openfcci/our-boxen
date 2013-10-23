@@ -19,6 +19,11 @@ GITHUBTARBALL
     boxen (3.0.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-chrome
+  specs:
+    chrome (1.1.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-clipmenu
   specs:
     clipmenu (1.0.0)
@@ -37,6 +42,11 @@ GITHUBTARBALL
   remote: boxen/puppet-dropbox
   specs:
     dropbox (1.1.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-firefox
+  specs:
+    firefox (1.1.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -104,6 +114,11 @@ GITHUBTARBALL
     ruby (6.3.4)
 
 GITHUBTARBALL
+  remote: boxen/puppet-sequel_pro
+  specs:
+    sequel_pro (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-sourcetree
   specs:
     sourcetree (1.0.0)
@@ -153,10 +168,12 @@ DEPENDENCIES
   alfred (= 1.1.5)
   autoconf (= 1.0.0)
   boxen (= 3.0.2)
+  chrome (= 1.1.1)
   clipmenu (= 1.0.0)
   crashplan (= 1.0.1)
   dnsmasq (= 1.0.0)
   dropbox (= 1.1.1)
+  firefox (= 1.1.3)
   gcc (= 2.0.1)
   git (= 1.2.5)
   homebrew (= 1.4.1)
@@ -171,6 +188,7 @@ DEPENDENCIES
   rdio (= 1.0.0)
   repository (= 2.2.0)
   ruby (= 6.3.4)
+  sequel_pro (= 1.0.1)
   sourcetree (= 1.0.0)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
