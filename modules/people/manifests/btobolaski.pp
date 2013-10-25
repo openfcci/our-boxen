@@ -3,6 +3,7 @@ class people::btobolaski {
 	include alfred
 	include clipmenu
 	include crashplan
+  include keyremap4macbook
 	include iterm2::dev
 	include notational_velocity::nvalt
 	include rdio
