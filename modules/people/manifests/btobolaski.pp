@@ -15,6 +15,13 @@ class people::btobolaski {
 
 	$dotfiles = "/Users/${::boxen_user}/.dotfiles"
 
+  include ruby
+
+  ruby::plugin{ 'rbenv-binstubs':
+    ensure => '1.3',
+    source => 'ianheggie/rbenv-binstubs'
+  }
+
   include php::5_4
   include php::composer
 
