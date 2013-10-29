@@ -15,6 +15,13 @@ class people::btobolaski {
 
 	$dotfiles = "/Users/${::boxen_user}/.dotfiles"
 
+  include php::5_4
+  include php::composer
+
+  class { 'php::global':
+    version => "5.4"
+  }
+
 	repository { $dotfiles:
 	  source => 'git@code.tobolaski.com:btobolaski/dotfiles.git'
 	}

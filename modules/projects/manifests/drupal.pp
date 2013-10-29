@@ -13,7 +13,7 @@ class projects::drupal {
 
     package {
       'homebrew/binary/packer':
-        ensure => '0.3.9';
+        ensure => '0.3.10';
     }
 
     boxen::project { 'fcc-drupal-cms':
