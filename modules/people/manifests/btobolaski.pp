@@ -1,6 +1,7 @@
 class people::btobolaski {
 	include adium
 	include alfred
+	include homebrew
 	include clipmenu
 	include crashplan
   include keyremap4macbook
@@ -20,6 +21,11 @@ class people::btobolaski {
   ruby::plugin{ 'rbenv-binstubs':
     ensure => '1.3',
     source => 'ianheggie/rbenv-binstubs'
+  }
+
+  package{
+    'the_silver_searcher':
+    ensure => '0.18';
   }
 
   include php::5_4
