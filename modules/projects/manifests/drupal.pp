@@ -14,6 +14,10 @@ class projects::drupal {
     package {
       'homebrew/binary/packer':
         ensure => '0.3.9';
+      'siege':
+        ensure => '3.0.5';
+      'phantomjs':
+        ensure => '1.9.2';
     }
 
     boxen::project { 'fcc-drupal-cms':
