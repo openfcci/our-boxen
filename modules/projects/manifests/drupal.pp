@@ -18,6 +18,8 @@ class projects::drupal {
         ensure => '3.0.5';
       'phantomjs':
         ensure => '1.9.2';
+      'jmeter':
+        ensure => '2.10';
     }
 
     boxen::project { 'fcc-drupal-cms':
