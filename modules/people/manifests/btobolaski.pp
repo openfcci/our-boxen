@@ -26,6 +26,8 @@ class people::btobolaski {
   package{
     'the_silver_searcher':
     ensure => '0.18';
+    'tmux':
+    ensure => '1.8';
   }
 
   include php::5_4
