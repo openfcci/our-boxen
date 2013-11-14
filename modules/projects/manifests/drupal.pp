@@ -9,6 +9,9 @@ class projects::drupal {
     vagrant::plugin { 'vagrant-mountcommand':
     }
 
+    vagrant::plugin { 'vagrant-cachier':
+    }
+
     homebrew::tap { 'homebrew/binary': }
 
     package {
