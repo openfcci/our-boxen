@@ -34,7 +34,7 @@ and detect most of these and tell you anyway):
 Run `xcode select --install` to install the command line utilities.
 
 Make sure that you have a GitHub account and that your GitHub account is has
-been added in /modules/people/manifests/<username>.pp. 
+been added in /modules/people/manifests/&lt;username&gt;.pp. 
 
 ### Setup
 
