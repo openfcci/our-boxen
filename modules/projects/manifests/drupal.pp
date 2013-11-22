@@ -16,7 +16,7 @@ class projects::drupal {
 
     package {
       'homebrew/binary/packer':
-        ensure => '0.3.11';
+        ensure => '0.4.0';
       'siege':
         ensure => '3.0.5';
       'phantomjs':
