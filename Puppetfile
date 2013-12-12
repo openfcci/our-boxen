@@ -60,7 +60,7 @@ github "xquartz",    "1.1.0"
 github "chrome",     "1.1.1"
 github "firefox",    "1.1.3"
 github "sequel_pro", "1.0.1"
-github "vagrant",    "3.0.0"
+github "vagrant",    "3.0.1"
 github "virtualbox", "1.0.8"
 
 # Modules for individual people
